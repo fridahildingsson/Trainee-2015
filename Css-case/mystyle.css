@@ -1,0 +1,412 @@
+/*************** Grunden**********************************/
+
+html{
+
+	box-sizing: border-box;
+}
+
+*, *:before,
+*:after{
+	box-sizing: inherit;
+
+} 
+
+body {
+    background-color: #FEFEFC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+	width: 70%;
+	height: 100%;
+	background-color: none;
+	margin: auto;
+	position: relative;
+
+}
+
+/******************SLUT på grunden*************************/
+
+/****************header relaterat*************************/
+
+.header {
+
+	height: 170px;
+	width: 100%;
+	background-color: #94D4D4;
+}
+
+/* hela den gråa smala delen högst upp på sidan */
+.topheadernav {
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	background-color: grey;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/* bilden som är logan för bagaren och kocken,*/
+#headercontainer img {
+
+	position: absolute;
+	z-index: 3;
+}
+
+
+/*en box för där sökruta & nav & shoppingkorg ska vara*/
+.smallercontainerheader {
+
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	top: 60px;
+	left: 115px;
+
+}
+
+/* Vita rutorna för sök och navigation i headern*/
+.containerheadernav {
+
+	width: 350px;
+	height: 50px;
+	background-color: #FEFEFC;
+	border-radius: 25px;
+	position: relative;
+	z-index: 4;
+	line-height: 50px;
+	display: block;
+	margin: 20px;
+	float: left;
+	text-align: left;
+}
+
+
+.navlistheader li {
+	float: left;
+	margin: 0;
+	padding-left: 5px;
+
+}
+
+.navlistheader li > a {
+	margin-left: 7px;
+}
+
+.navlistheader a{
+	text-decoration: none;
+	color: #898988;
+	font-family: Verdana;
+	font-size: 13px;
+}
+
+.navlistheader a:hover{
+	text-decoration: underline;
+}
+
+
+
+#headersearchtextfield {
+	border: none;
+	margin-left: 15px;
+	height: 20px;
+	width: 250px;
+}
+
+::-webkit-input-placeholder {
+	color: #898988;
+	font-size: 15px;
+}
+
+.topheadernavtext {
+	width: 230px;
+	height: 35px;
+	margin-left: 140px;
+	margin-right: none;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+.imagetopheader {
+	width: 137px;
+	height: 50px;
+	margin: none;
+	float: left;
+	position: relative;
+}
+
+.listintopheadernavcontainer {
+	width: 540px;
+	height: 40px;
+	margin: none;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+.listintopheadernav li {
+	float: left;
+	margin: 0;
+	text-align: center;
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	height: inherit;
+	padding: 13px;
+}
+
+.listintopheadernav a{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #FEFEFC;
+}
+
+.listintopheadernav a:hover {
+	text-decoration: underline;
+}
+
+.topheadernavtext p {
+	color: #FEFEFC;
+	font-family: Verdana;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.facebookiconcontainer {
+	width: 70px;
+	height: 40px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+
+.shoppingcartcontainer {
+	width: 230px;
+	height: 50px;
+	background-color: #B54747;
+	border-radius: 25px;
+	position: relative;
+	z-index: 4;
+	line-height: 50px;
+	display: block;
+	margin: 20px;
+	float: left;
+}
+
+.shoppingcartcontainerleft,
+.shoppingcartcontainerright {
+	width: 50%;
+	height: inherit;
+	float: left;
+}
+
+.shoppingcartcontainerright {
+	background-color: #7F3232;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.shoppingcartcontainerleft {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	text-align: center;
+}
+
+.shoppingcartcontainerleft img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.shoppingcartcontainerright a {
+	text-decoration: none;
+	font-family: Verdana;
+	color: #FEFEFC;
+	font-size: 13px;
+	padding-left: 7px;
+}
+
+/*******************SLUT HEADER*****************************/
+
+
+
+/***************NAV RELATERAT********************************/
+.nav {
+	height: 60px;
+	width: 100%;
+	background-color: #F5F0E6;
+}
+
+/*********** även naven i headern************/
+.navlist,
+.navlistheader,
+.listintopheadernav{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+/***********slut på även nav i headern********/
+
+.navlist li {
+	height: 60px;
+	float: left;
+	margin: 0;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+.navlist li:lastchild {
+	background-color: grey;
+}
+
+.navlist li:hover{
+	background-color: grey;
+	color: white
+}
+
+.navlist a{
+	text-decoration: none;
+	color: inherit;
+	font-family: Verdana;
+	font-size: 15px;
+	line-height: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navlist a:hover {
+	color: white;
+
+}
+
+
+#flerprodukter {
+
+	background-color: #E6E6E6;
+}
+
+#flerprodukter:hover {
+	background-color: grey;
+}
+
+/***************SLUT NAV*********************************/
+
+
+/**************PAGE RELATERAT***************************/
+.page {
+
+	height: 2000px;
+	width: 100%;
+	background-color: #FEFEFC;
+
+}
+
+.kampanj {
+
+	width:100%;
+	height: 400px;
+	background-color: #F6C3C6;
+	margin-bottom: 20px;
+
+}
+
+.kampanjbild {
+	float: left;
+}
+
+.kampanjtext {
+
+	width: 360px;
+	height: 400px;
+	float: left;
+
+}
+
+.kampanjtext h1,
+.kampanjtext h2,
+.kampanjtext p {
+	text-align: right;
+	padding: 10px;
+	margin: 0;
+	font-family: Arial;
+}
+
+.kampanjtext h1, h2 {
+	color: grey;
+}
+
+.kampanjtext p {
+	color: #FEFEFC;
+	font-size: 13px;
+}
+
+#buttonmoreinfo {
+	height: 40px;
+	width: 120px;
+	float: right;
+	background-color: #F6C3C6;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 20px;
+	color: #FEFEFC;
+	border: 2px solid #FEFEFC;
+}
+
+#buttonmoreinfo:hover {
+	background-color: grey;
+}
+
+.navpicturecontainer {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #CCCCCC;
+}
+
+.picturesnav img {
+	float: left;
+	margin: 8px;
+}
+
+.brands {
+	width: 100%;
+	height: 150px;
+}
+
+.brands img {
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.allbrandslink {
+	float: left;
+	vertical-align: middle;
+	line-height: 150px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.allbrandslink a {
+	color:#7F3232;
+	text-decoration: none;
+}
+.allbrandslink a:hover {
+	text-decoration: underline;
+}
+
+
+/*************FOOTER RELATERAT**************************/
+
+.footer {
+	height:400px ;
+	background-color: purple;
+}
