@@ -403,6 +403,23 @@ body {
 	text-decoration: underline;
 }
 
+.popularproducts {
+
+	width: 100%;
+	height: 40px;
+	position: relative;
+	
+}
+
+.popularproducts h2{
+	position: absolute;
+	font-size: 20px;
+	color: grey;
+	bottom: 0px;
+	left: 43%;
+	background-color: #FEFEFC;
+	padding: 5px;
+}
 
 /*************FOOTER RELATERAT**************************/
 
@@ -410,3 +427,4 @@ body {
 	height:400px ;
 	background-color: purple;
 }
+
