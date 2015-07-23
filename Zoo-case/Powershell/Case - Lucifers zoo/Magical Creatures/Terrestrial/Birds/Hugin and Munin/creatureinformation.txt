@@ -1,0 +1,2 @@
+Creature: Hugin, found 912-03-27, evil: 10;
+Creature: Emil, found 978-03-26, evil: 1

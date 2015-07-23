@@ -1,0 +1,2 @@
+Creature: Quark, found 2012-03-27, evil: 1;
+Creature: Knupp, found 2012-03-26, evil: 1

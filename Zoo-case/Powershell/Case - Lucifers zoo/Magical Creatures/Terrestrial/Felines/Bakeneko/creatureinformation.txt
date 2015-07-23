@@ -1,0 +1,2 @@
+Creature: Tesla, found 2015-03-27, evil: 10;
+Creature: Nicola, found 2012-03-26, evil: 1

@@ -1,0 +1,3 @@
+Creature: Fawkes, found 2012-03-27, evil: 1;
+Creature: Fewkes, found 2012-03-27, evil: 5;
+Creature: Fewaks, found 2012-03-26, evil: 1

@@ -1,0 +1,2 @@
+Creature: Stingy1, found 2012-03-27, evil: 6;
+Creature: Stingy2, found 2012-03-26, evil: 6

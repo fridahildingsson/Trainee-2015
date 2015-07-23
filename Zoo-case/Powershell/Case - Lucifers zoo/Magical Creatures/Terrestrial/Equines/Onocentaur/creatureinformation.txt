@@ -1,0 +1,2 @@
+Creature: Stubborn, found 2076-03-27, evil: 9;
+Creature: Envis, found 1987-03-26, evil: 1

@@ -1,0 +1,2 @@
+Creature: Centar, found 2012-11-27, evil: 4;
+Creature: Goldie, found 2012-03-26, evil: 1

@@ -1,0 +1,2 @@
+Creature: Hanna, found 2012-03-27, evil: 1;
+Creature: Emil, found 2012-03-26, evil: 1
