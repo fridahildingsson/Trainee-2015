@@ -421,6 +421,26 @@ body {
 	padding: 5px;
 }
 
+.popularproductslinks {
+
+	width: 100%;
+	height: 400px;
+}
+
+.popularproductslinks a{
+	display: block;
+	width: 25%;
+	height: 50%;
+	border: 1px solid grey;
+	float: left;
+}
+
+.popularproductslinks a:hover{
+	background-color: beige;
+}
+
+
+
 /*************FOOTER RELATERAT**************************/
 
 .footer {
